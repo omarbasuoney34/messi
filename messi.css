@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background: #EDBB00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .omar9{
+    font-size: 50px;
+    color: #EA906C;
+}
+
+.Logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-left: -130px;
+    
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: #004D98;
+    font-weight: 400;
+    transition: .3s;
+    margin-left: 50px;
+
+}
+
+.navbar a:hover{
+    color:#A50044;
+}
+
+section{
+    padding: 10rem 9% 2rem;
+    min-height: 100vh;
+}
+
+.home{
+    background: #A50044;
+}
+
+.header img{
+    max-width: 50px;
+    margin-left: -40px;
+}
+
+.home .tit{
+    font-size: 50px;
+    text-align: center;
+    color:#004D98;
+}
+
+.home .img{
+    text-align: center;
+    
+}
+
+.home .img img{
+    max-width: 350px;
+    margin-top: 50px;
+}
+
+.Quirks{
+    background: #EDBB00;
+}
+
+.Quirks .titl{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+}
+
+.Quirks .content3{
+    width: 400px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 250px;
+    font-size: 20px;
+    display: flex;
+}
+
+.Quirks .content3 .n5{
+    font-size: 50px;
+}
+
+.Quirks .content3 .n6{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Quirks .content1{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 350px;
+    font-size: 20px;
+    display: flex;
+}
+
+.Quirks .content1 .n1{
+    font-size: 50px;
+}
+
+.Quirks .content1 .n2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Quirks .content2{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 450px;
+    font-size: 20px;
+    display: flex;
+}
+
+.Quirks .content2 .n3{
+    font-size: 50px;
+}
+
+.Quirks .content2 .n4{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Quirks .video video{
+    border-radius: 50px;
+    border: #004D98 2px solid;
+    margin-top: 100px;
+    transition: .5s;
+}
+
+.Quirks .video video:hover{
+    border-radius: 50px;
+    border: #A50044 5px solid;
+}
+
+.Assists{
+    background: #004D98;
+}
+
+.Assists .titl{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+    color: #EDBB00;
+}
+
+.Assists .content4{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 1100px;
+    font-size: 20px;
+    display: flex;
+}
+
+.Assists .content4 .n7{
+    font-size: 50px;
+}
+
+.Assists .content4 .n8{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Assists .content5{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 1200px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Assists .content5 .n9{
+    font-size: 50px;
+}
+
+.Assists .content5 .n10{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Assists .content6{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 1300px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Assists .content6 .n11{
+    font-size: 50px;
+}
+
+.Assists .content6 .n12{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Assists video{
+    max-width: 500px;
+    margin-left: -20px;
+    margin-top: 100px;
+    border: #EA906C 2px solid;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.Assists video:hover{
+    border: #A50044 4px solid;
+}
+
+.Goals{
+    background: #A50044;
+}
+
+.Goals .titl{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+    color: #004D98;
+}
+
+.Goals .content7{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2000px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Goals .content7 .n13{
+    font-size: 50px;
+}
+
+.Goals .content7 .n14{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Goals .content8{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2100px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Goals .content8 .n15{
+    font-size: 50px;
+}
+
+.Goals .content8 .n16{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Goals .content9{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2200px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Goals .content9 .n17{
+    font-size: 50px;
+}
+
+.Goals .content9 .n18{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Goals video{
+    max-width: 350px;
+    margin-left: -20px;
+    margin-top: 100px;
+    border: #EDBB00 2px solid;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.Goals video:hover{
+    border: #004D98 4px solid;
+}
+
+.Games{
+    background: #EDBB00;
+}
+
+
+.Games .titl{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+}
+
+.Games .content10{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2700px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Games .content10 .n19{
+    font-size: 50px;
+}
+
+.Games .content10 .n20{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Games .content11{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2800px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Games .content11 .n21{
+    font-size: 50px;
+}
+
+.Games .content11 .n22{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Games .content12{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 2900px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Games .content12 .n23{
+    font-size: 50px;
+}
+
+.Games .content12 .n24{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Games .content13{
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    margin-left: 550px;
+    margin-top: 3000px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.Games .content13 .n25{
+    font-size: 50px;
+}
+
+.Games .content13 .n26{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+
+.Games video{
+    max-width: 350px;
+    margin-left: -20px;
+    margin-top: 100px;
+    border: #EDBB00 2px solid;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.Games video:hover{
+    border: #004D98 4px solid;
+}
+
+.salam{
+    background: #A50044;
+    
+}
+
+.salam .title{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+}
+
+.salam .aw{
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+.salam .aw a{
+    font-size: 100px;
+}
+
+.salam .vedio1{
+    margin-top: -320px;
+    
+}
+
+.salam .vedio1 video{
+    max-width: 300px;
+    border: #004D98 2px solid;
+    border-radius: 50px;
+}
+
+.salam .vedio2{
+    margin-left: 650px;
+    margin-top: -400px;
+}
+
+.salam .vedio2 video{
+    max-width: 400px;
+    border-radius: 50px;
+    border: #004D98 2px solid;
+}
+
+.salam .sal .salm{
+    text-align: center;
+    margin-left: -120px;
+    margin-top: -110px;
+    font-size: 30px;
+}
+
+.home .audio{
+    margin-top: 100px;
+}
+
